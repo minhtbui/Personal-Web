@@ -2245,6 +2245,7 @@ input[type='radio'] + label:before {
 .image.avatar img {
    border-radius: 50%;
    width: 80%;
+   opacity: 0.9;
 }
 
 /* List */
