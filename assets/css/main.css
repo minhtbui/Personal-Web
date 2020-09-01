@@ -173,12 +173,7 @@ html {
 }
 
 body {
-   background: rgb(18, 3, 3);
-   background: linear-gradient(
-      161deg,
-      rgba(18, 3, 3, 0.7291883794533438) 0%,
-      rgba(0, 0, 0, 1) 100%
-   );
+   background: #1e1e1e;
 }
 
 body.is-preload *,
@@ -223,7 +218,7 @@ a:hover {
 
 strong,
 b {
-   color: #000000;
+   color: #57644e;
    font-weight: 900;
 }
 
@@ -2924,7 +2919,7 @@ input[type='button']:disabled,
 }
 
 .poptrox-popup .caption {
-   background: #fff;
+   background: #262626;
    bottom: 0;
    cursor: default;
    font-size: 0.9em;
@@ -2970,7 +2965,7 @@ input[type='button']:disabled,
 
 .poptrox-popup .nav-next:before,
 .poptrox-popup .nav-previous:before {
-   color: #fff;
+   color: #ffffff;
    font-size: 2.5em;
    height: 1em;
    line-height: 1em;

@@ -191,6 +191,25 @@
 	<script src="assets/js/breakpoints.min.js"></script>
 	<script src="assets/js/util.js"></script>
 	<script src="assets/js/main.js"></script>
+	<script SameSite="None; Secure" src="https://static.landbot.io/landbot-widget/landbot-widget-1.0.0.js"></script>
+	<script>
+		var myLandbot = new LandbotLivechat({
+			index: 'https://chats.landbot.io/v2/H-694744-HRGGXZ9T935XD7X2/index.html',
+		});
+	</script>
+	<script>
+		// Show a proactive message after 1 seconds
+		setTimeout(function () {
+			myLandbot.sendProactive({
+				"message": "Welcome my friend!!!",
+				"author": "Little Troy",
+				"avatar": "https://storage.googleapis.com/media.helloumi.com/142892/channels/P3XCAR9YU689ZA65POXU1KDXZM5XTCRT.png",
+				"extra": {
+					"hide_textbox": true
+				}
+			});
+		}, 1000);
+	</script>
 
 </body>
 
