@@ -195,6 +195,13 @@
 	<script>
 		var myLandbot = new LandbotLivechat({
 			index: 'https://chats.landbot.io/v2/H-694744-HRGGXZ9T935XD7X2/index.html',
+			launcherOptions: {
+				'type': 'image',
+				'shape': 'default',
+				'scale': '1',
+				'image': 'https://img.icons8.com/officel/100/000000/bot.png',
+				'color': 'white'
+			},
 		});
 	</script>
 	<script>
@@ -203,12 +210,12 @@
 			myLandbot.sendProactive({
 				"message": "Welcome my friend!!!",
 				"author": "Little Troy",
-				"avatar": "https://storage.googleapis.com/media.helloumi.com/142892/channels/P3XCAR9YU689ZA65POXU1KDXZM5XTCRT.png",
+				"avatar": 'https://media2.giphy.com/media/Wj7lNjMNDxSmc/giphy.gif',
 				"extra": {
 					"hide_textbox": true
-				}
+				},
 			});
-		}, 1000);
+		}, 2000);
 	</script>
 
 </body>
